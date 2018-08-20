@@ -11,11 +11,7 @@ namespace HWOpenHouse071618
 
             Console.WriteLine("This home has six magnificent room.");
 
-            Console.WriteLine("Would you like to see the kitchen room? Please enter: y/n.");
-
-            string userResponse = Console.ReadLine();
-
-            if (userResponse == "y")
+            if (UI.UserAnswersYes("Would you like to see the kitchen room? Please enter: y/n."))
             {
                 Console.WriteLine("This kitchen is simply magnificent." +
                                   "\n It has plenty of storage, which is a dream." +
@@ -23,11 +19,7 @@ namespace HWOpenHouse071618
                                   "\n The floors are freshly done.");
             }
 
-            Console.WriteLine("Would you like to see the dining room? Please enter: y/n.");
-
-            userResponse = Console.ReadLine();
-
-            if (userResponse == "y")
+            if (UI.UserAnswersYes("Would you like to see the dining room? Please enter: y/n."))
             {
                 Console.WriteLine("This dining room is spacious and creatively designed." +
                                   "\n It has large floor to ceiling windows." +
@@ -35,11 +27,7 @@ namespace HWOpenHouse071618
                                   "\n There is also plenty of wall space for pictures and other decor.");
             }
 
-            Console.WriteLine("Would you like to see the living room? Please enter: y/n.");
-
-            userResponse = Console.ReadLine();
-
-            if (userResponse == "y")
+            if (UI.UserAnswersYes("Would you like to see the living room? Please enter: y/n."))
             {
                 Console.WriteLine("This room is amazing." +
                                   "\n The fireplace is perfect for pictures." +
@@ -47,11 +35,7 @@ namespace HWOpenHouse071618
                                   "\n Most people tend to fall in love with the openness and the large windows.");
             }
 
-            Console.WriteLine("Would you like to see the guest bathroom? Please enter: y/n.");
-
-            userResponse = Console.ReadLine();
-
-            if (userResponse == "y")
+            if (UI.UserAnswersYes("Would you like to see the guest bathroom? Please enter: y/n."))
             {
                 Console.WriteLine("This bathroom is perhaps the best space in the house, next to the kitchen." +
                                   "\n It has brand new countertops." +
@@ -59,11 +43,7 @@ namespace HWOpenHouse071618
                                   "\n I personally adore the seperate shower and bathtub combo.");
             }
 
-            Console.WriteLine("Would you like to see the master bedroom? Please enter: y/n.");
-
-            userResponse = Console.ReadLine();
-
-            if (userResponse == "y")
+            if (UI.UserAnswersYes("Would you like to see the master bedroom? Please enter: y/n."))
             {
                 Console.WriteLine("Like many modern homes, the master bedroom is located on the first floor." +
                                   "\n The windows in this room allow for magnificent amounts of natural light." +
@@ -71,11 +51,7 @@ namespace HWOpenHouse071618
                                   "\n The hardwood floors are to die for.");
             }
 
-            Console.WriteLine("Would you like to see the master bathroom? Please enter: y/n.");
-
-            userResponse = Console.ReadLine();
-
-            if (userResponse == "y")
+            if (UI.UserAnswersYes("Would you like to see the master bathroom? Please enter: y/n."))
             {
                 Console.WriteLine("This bathroom is perhaps the best space in the house, next to the kitchen." +
                                   "\n It has brand new countertops." +
@@ -83,11 +59,7 @@ namespace HWOpenHouse071618
                                   "\n I personally adore the seperate shower and bathtub combo.");
             }
 
-            Console.WriteLine("Would you like more information about this lovely home? Please enter: y/n.");
-
-            userResponse = Console.ReadLine();
-
-            if (userResponse == "y")
+            if (UI.UserAnswersYes("Would you like more information about this lovely home? Please enter: y/n."))
             {
                 Console.WriteLine("The total asking price of the house is $300,500." +
                                   "\n It is only two years old." +
@@ -95,15 +67,10 @@ namespace HWOpenHouse071618
                                   "\n They have also agreed to pay neighborhood associations dues for the first six months.");
             }
 
-            Console.WriteLine("Are you interested in purchasing? Please enter: y/n.");
-
-            userResponse = Console.ReadLine();
-
-            if (userResponse == "y")
+            if (UI.UserAnswersYes("Are you interested in purchasing? Please enter: y/n."))
             { 
                 Console.WriteLine("Awesome!");
             }
-
             else
             {
                 Console.WriteLine("Well if you decide to change your mind, please give us a call." +
