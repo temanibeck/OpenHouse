@@ -1,0 +1,6 @@
+/Users/temanibeck/Projects/HWOpenHouse071618/HWOpenHouse071618/obj/x86/Debug/HWOpenHouse071618.csprojResolveAssemblyReference.cache
+/Users/temanibeck/Projects/HWOpenHouse071618/HWOpenHouse071618/obj/x86/Debug/HWOpenHouse071618.csproj.CoreCompileInputs.cache
+/Users/temanibeck/Projects/HWOpenHouse071618/HWOpenHouse071618/bin/Debug/HWOpenHouse071618.exe
+/Users/temanibeck/Projects/HWOpenHouse071618/HWOpenHouse071618/bin/Debug/HWOpenHouse071618.pdb
+/Users/temanibeck/Projects/HWOpenHouse071618/HWOpenHouse071618/obj/x86/Debug/HWOpenHouse071618.exe
+/Users/temanibeck/Projects/HWOpenHouse071618/HWOpenHouse071618/obj/x86/Debug/HWOpenHouse071618.pdb
